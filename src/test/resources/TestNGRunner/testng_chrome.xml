@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Jorani Leave Management System" verbose="4" thread-count="3">
+
+	
+	<test name="Jorani-LMS-Login Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniloginpageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-Home Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniHomepageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-LeaveRequest Page Test">
+		<classes>
+			<class name="Com.PagesTest.LeaveRequestPageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-Admin Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniAdminpageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-Apporval Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniApporvalPageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-HR1_2 Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniHR1_2pageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-HR3_4 Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniHR3_4pageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-HR5_6 Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniHR5_6pageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-OvertimeRequest Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniOvertimeRequestPage_Test" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-Calendars Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniCalendarspageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-PersonalInformation Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniPersonalInformationPageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-Logout Page Test">
+		<classes>
+			<class name="Com.PagesTest.JoraniLogoutPageTest" />
+		</classes>
+	</test>
+	<test name="Jorani-LMS-Screenshot Test">
+		<classes>
+			<class name="Com.PagesTest.Jorani_pages_Screenshot_test" />
+		</classes>
+	</test>
+	
+
+	
+	<!-- <test name="Open Cart Product Info Page Test"> <classes> <class name="com.qa.opencart.tests.ProductInfoPageTest" 
+		/> </classes> </test> -->
+
+
+	<!-- <test name="Open Cart Registration Page Test"> <classes> <class name="com.qa.opencart.tests.RegistrationPageTest" 
+		/> </classes> </test> -->
+
+</suite>
